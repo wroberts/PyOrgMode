@@ -51,6 +51,8 @@ class OrgDate:
         """
         Initialisation of an OrgDate element.
         """
+        self.value = None
+        self.end = None
         if value is not None:
             self.set_value(value)
 
